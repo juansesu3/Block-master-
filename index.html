@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>Document</title>
+    <title>Movie app</title>
 </head>
+
 <body>
-    <input id="inputBuscar">
-    <button id="btnBuscar">Buscar</button>
+    <header>
+        <img id="logo" src="./image/logo-blockBuster.png" alt="">
+        <form id="form">
+            <input type="text" id="search" class="search" placeholder="Search" />
+            <button><img id="icono-search" src="./image/primary1.png" alt="" ></button>
+        </form>
+        <nav class="menu">
+            <ul>
+              <li><a href="#">Todas</a></li>
+              <li><a href="#">Mas volaradas</a></li>
+              <li><a href="#">Menos valoradas</a></li>
+            </ul>
+          </nav>
+    </header>
 
-    <div class="row" id="items"></div>
-
-    <template id="template-card">
-      <div class="card">
-        <h5></h5>
-          <img id="image" src="" alt="" width="50"></img>
-      </div>
-    </template>   
+    <main id="main"></main>
     <script src="./script/script.js"></script>
+    
 </body>
-</html>
+
+</html> 
