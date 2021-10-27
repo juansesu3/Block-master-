@@ -31,8 +31,7 @@ function showMovie(movie) {
              </div>
              <div class="overview">
                  <h3>overview</h3>
-                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda quas vero neque sint quisquam rerum
-                 sit. Exercitationem sint temporibus dicta?
+                 ${overview}
              </div>
         `;
     main.appendChild(movieEl);
